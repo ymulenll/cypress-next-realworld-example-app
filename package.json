@@ -1,0 +1,26 @@
+{
+  "name": "next-realworld-example-app",
+  "version": "1.0.0",
+  "author": "reck1ess",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "cypress": "cypress open"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lazysizes": "^5.2.2",
+    "marked": "^1.1.1",
+    "next": "^9.5.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "swr": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.44",
+    "cypress": "^9.5.0",
+    "typescript": "^3.9.7"
+  }
+}
