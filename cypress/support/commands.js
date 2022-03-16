@@ -36,3 +36,19 @@ Cypress.Commands.add(
     // alternativa cy.get('[data-cy="login-form"]').submit();
   }
 );
+
+Cypress.Commands.add("loginApi", () => {
+  const user = { email: "commit@studio.com", password: "commit" };
+
+  cy.session(user, () => {
+    cy.request("POST", "https://conduit.productionready.io/api/users/login", {
+      user,
+    }).then((response) => {
+      localStorage.setItem("user", JSON.stringify(response.body.user));
+    });
+  });
+});
+
+Cypress.Commands.add("getBySel", (selector, ...args) => {
+  return cy.get(`[data-cy=${selector}]`, ...args);
+});

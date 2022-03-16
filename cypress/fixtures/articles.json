@@ -1,20 +1,21 @@
 {
   "articles": [
     {
-      "slug": "Create-a-new-implementation-1",
-      "title": "Create a new implementation",
-      "description": "join the community by creating a new implementation",
-      "body": "Share your knowledge and enpower the community by creating a new implementation",
-      "createdAt": "2021-11-24T12:11:08.212Z",
-      "updatedAt": "2021-11-24T12:11:08.212Z",
-      "tagList": ["implementations"],
+      "slug": "New-article-25591",
+      "title": "New article",
+      "description": "Testing cypress",
+      "body": "*Título*",
+      "createdAt": "2022-03-15T23:25:37.055Z",
+      "updatedAt": "2022-03-15T23:25:37.055Z",
+      "tagList": ["cypress", "testing"],
       "author": {
-        "username": "Gerome",
+        "username": "commit",
         "bio": null,
-        "image": "https://api.realworld.io/images/demo-avatar.png",
-        "following": false
+        "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQEICeDvRP3wlg/company-logo_200_200/0/1611930853714?e=1653523200&v=beta&t=-L55I4VXrxiPvToXVYb7J85amOUrskos8pyFJFVJZQw"
       },
-      "favoritesCount": 1278,
+      "favoritedBy": [],
+      "_count": { "favoritedBy": 0 },
+      "favoritesCount": 0,
       "favorited": false
     }
   ],

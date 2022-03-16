@@ -1,0 +1,20 @@
+{
+  "article": {
+    "slug": "New-article-25591",
+    "title": "New article",
+    "description": "Testing cypress",
+    "body": "*Título*",
+    "createdAt": "2022-03-15T23:25:37.055Z",
+    "updatedAt": "2022-03-15T23:25:37.055Z",
+    "tagList": ["cypress", "testing"],
+    "author": {
+      "username": "commit",
+      "bio": null,
+      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQEICeDvRP3wlg/company-logo_200_200/0/1611930853714?e=1653523200&v=beta&t=-L55I4VXrxiPvToXVYb7J85amOUrskos8pyFJFVJZQw"
+    },
+    "favoritedBy": [],
+    "_count": { "favoritedBy": 0 },
+    "favoritesCount": 0,
+    "favorited": false
+  }
+}

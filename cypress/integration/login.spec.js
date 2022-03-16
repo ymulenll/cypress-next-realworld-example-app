@@ -15,3 +15,14 @@ describe("Login test cases", () => {
       .and("contain.text", "commit");
   });
 });
+
+describe("Logout test cases", () => {
+  it("should log out", () => {
+    cy.login();
+
+    cy.get('[data-cy="settings-nav"]').click();
+    cy.contains("button", /logout/i).click();
+
+    cy.get('[data-cy="sign-up-nav"]').should("be.visible");
+  });
+});
